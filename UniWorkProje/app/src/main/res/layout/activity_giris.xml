@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/arka3"
+    tools:context=".isEkleme">
+
+    <ImageView
+        android:id="@+id/UygImg"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:src="@drawable/logo"
+        android:scaleType="fitCenter"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:layout_marginTop="80dp"
+        android:id="@+id/firmaIsmiLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Firma İsmi : "
+        android:textSize="18sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"/>
+
+    <EditText
+        android:id="@+id/firmaIsmiEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/firmaIsmiLabel"
+        android:layout_marginBottom="8dp"
+        android:inputType="text"
+        />
+
+    <TextView
+        android:id="@+id/isTurLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="İş Türü:"
+        android:textSize="18sp"
+        android:layout_below="@+id/firmaIsmiEditText"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="8dp"/>
+
+    <EditText
+        android:id="@+id/isTurEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/isTurLabel"
+        android:layout_marginBottom="8dp"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/tarihLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tarih:"
+        android:textSize="18sp"
+        android:layout_below="@+id/isTurEditText"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="8dp"/>
+
+    <EditText
+        android:id="@+id/tarihEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tarihLabel"
+        android:layout_marginBottom="8dp"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/ucretLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ücret:"
+        android:textSize="18sp"
+        android:layout_below="@+id/tarihEditText"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="8dp"/>
+
+    <EditText
+        android:id="@+id/ucretEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ucretLabel"
+        android:layout_marginBottom="8dp"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/iletisimLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="İletişim:"
+        android:textSize="18sp"
+        android:layout_below="@+id/ucretEditText"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="8dp"/>
+
+    <EditText
+        android:id="@+id/iletisimEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iletisimLabel"
+        android:layout_marginBottom="8dp"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/adresLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Adres:"
+        android:textSize="18sp"
+        android:layout_below="@+id/iletisimEditText"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="8dp"/>
+
+    <EditText
+        android:id="@+id/adresEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/adresLabel"
+        android:layout_marginBottom="8dp"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/gonderButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/adresEditText"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@color/buttonColor2"
+        android:text="İŞİ EKLE"/>
+
+</RelativeLayout>

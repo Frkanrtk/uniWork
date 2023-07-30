@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "417370269843",
+    "project_id": "projefirebase-dc780",
+    "storage_bucket": "projefirebase-dc780.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:417370269843:android:8b5eab541f9891d7c3c566",
+        "android_client_info": {
+          "package_name": "com.furkanartik.uniworkproje"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "417370269843-p5bio8jbu6rfumtv1qcgaqouhgagk5p3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDmn3u1ChiuuSIIzLdjOHfNPS7uS9a8wGI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "417370269843-p5bio8jbu6rfumtv1qcgaqouhgagk5p3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
